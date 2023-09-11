@@ -1,6 +1,7 @@
 Linkedin
 
 España	Palabras Clave			Resultados
+	Aceleración hardware		1
 	GPU				19 
 	FPGA				224
 	Procesamiento Paralelo		4
