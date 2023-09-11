@@ -1,6 +1,7 @@
 Linkedin
 
 EEUU	Palabras Clave			Resultados
+	Aceleración hardware		553
 	GPU				2000 
 	FPGA				8000
 	Procesamiento Paralelo		563
