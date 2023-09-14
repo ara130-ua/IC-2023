@@ -24,6 +24,8 @@ https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante
 AI & Security Data Scientist CaixaBank
 https://es.linkedin.com/jobs/view/ai-security-data-scientist-at-caixabank-tech-3693516154?refId=NMACHljnvrAw8oHZJ8hirg%3D%3D&trackingId=%2FcI5pVtjMTOn39TJm%2FEy4A%3D%3D&trk=public_jobs_topcard-title
 
+Investigador/a Inteligencia Artificial 
+https://es.linkedin.com/jobs/search?keywords=Optimizacion%2Bsoftware&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3596692476&position=2&pageNum=0
 
-Faltan 2
-
+Machine Learning Engineer
+https://es.linkedin.com/jobs/search?keywords=gpu&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3702456279&position=6&pageNum=0
