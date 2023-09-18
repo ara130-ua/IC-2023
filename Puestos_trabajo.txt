@@ -8,10 +8,19 @@ computación en la nube
 Embedded Software Engineer for Onboard AI-IP systems development
 Ingeniero de Software Empotrado para el Desarrollo de Sistemas de IA-IP a Bordo
 https://es.linkedin.com/jobs/view/embedded-software-engineer-for-onboard-ai-ip-systems-development-at-elecnor-deimos-3655620512?refId=ojpGpt7AEPt8JUo91n5AnQ%3D%3D&trackingId=oCAl5bYrr5QMg7uUw5olDw%3D%3D&position=4&pageNum=0&trk=public_jobs_jserp-result_search-card
-    Educación: Algún grado en ingeniería informática, multimedia, electronica...
-    
-
-
+    Requisitos: Algún grado en ingeniería informática, multimedia, electronica...
+                Nivel de programacion excelente en c, c++ y python y saber utilizar plataformas como GIT
+                Conocimientos de tecnicas para procesamiento de imagenes o redes neuronales (Nvidia GPU, Myriad VPU, Xilinx FPGA/SoC/MPSoC)
+                Generacion de documentacion del proyecto incluyendo especificaciones, diseño sw y otros documentos 
+    Apreciado:  Experiencia practica en el desarollo de software en tiempo real en sistemas embebidos 
+                Experiencia o conocimientos de seguridad en sistemas criticos
+                Experiencia practica en buses de comunicacion, drivers y protocolos de comunicacion asociados (Serial line, Ethernet, Bus CAN, SPI, etc)
+                Experiencia o conocimientos de los estandares de programacion software (MISRA-C)
+                Experiencia en aplicaciones multihilo, sistemas de operaciones en tiempo real o computadores embebidos
+                Aplicaciones de diseño de software y sistemas (UML, SysML)
+    Lenguajes:  Alto nivel de ingles 
+                Español opcional
+                
 Research Engineer - Diseño de un chip de procesos de un superordenador
 https://es.linkedin.com/jobs/view/research-engineer-researcher-design-of-a-supercomputing-processor-chip-at-barcelona-supercomputing-center-3627669163?refId=DomkcJb8s9H0WynTlYMPng%3D%3D&trackingId=zl7ghIQ%2FrKjnDsqACp%2FTQA%3D%3D&trk=public_jobs_topcard-title
 
