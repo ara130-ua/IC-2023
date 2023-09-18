@@ -26,6 +26,19 @@ https://es.linkedin.com/jobs/view/embedded-software-engineer-for-onboard-ai-ip-s
                 Español opcional
                 
 Research Engineer - Diseño de un chip de procesos de un superordenador
+Perfiles Junior (0 a 2 años de experiencia):
+•	Educación: Se requiere una licenciatura (BS) o maestría (MS) en Ciencias de la Computación, Ingeniería Informática o Ingeniería Eléctrica. La experiencia industrial previa es un gran plus.
+•	Experiencia Profesional: Idealmente, experiencia en la industria.
+•	Competencias: Se valoran habilidades como la planificación y organización, la capacidad para trabajar en equipo y la innovación.
+Perfiles Intermedios (3 a 9 años de experiencia):
+•	Educación: Se requiere un doctorado (Ph.D.) en Ciencias de la Computación, Ingeniería Informática o Ingeniería Eléctrica.
+•	Experiencia Profesional: Se requieren al menos 5 años de experiencia en la industria en un papel principal.
+•	Competencias: Se valoran habilidades como la planificación y organización, la capacidad para trabajar en equipo y la innovación.
+Perfiles Senior (10+ años de experiencia):
+•	Educación: Se requiere un Ph.D. en Ciencias de la Computación, Ingeniería Informática o Ingeniería Eléctrica.
+•	Experiencia Profesional: Se requieren entre 10 y 20+ años de experiencia en la industria en un papel principal.
+•	Competencias: Se valoran habilidades como la planificación y organización, la capacidad para trabajar en equipo y la innovación.
+
 https://es.linkedin.com/jobs/view/research-engineer-researcher-design-of-a-supercomputing-processor-chip-at-barcelona-supercomputing-center-3627669163?refId=DomkcJb8s9H0WynTlYMPng%3D%3D&trackingId=zl7ghIQ%2FrKjnDsqACp%2FTQA%3D%3D&trk=public_jobs_topcard-title
     
 
@@ -47,6 +60,19 @@ https://es.linkedin.com/jobs/view/animation-tech-programmer-–-aaa-games-–-hy
     Idioma: No hay
 
 Cloud Consultant
+Requisitos:
+•	Ubicación: Trabajo presencial en Salamanca.
+•	Duración del Contrato: Dos años.
+•	Requisito Educativo: Debe estar matriculado en un proceso formativo en el ámbito de la formación profesional, estudios universitarios o del catálogo de especialidades formativas del Sistema Nacional de Empleo.
+Apreciable:
+•	Experiencia previa en el ámbito de la radioprotección o campos relacionados sería apreciada.
+•	Conocimiento en simulaciones Monte Carlo con códigos de transporte (FLUKA, PENELOPE, MCNP, GEANT4, etc.) sería una ventaja.
+•	Interés en la aplicación de la Inteligencia Artificial en la detección de radiación.
+•	Habilidades de trabajo en equipo y colaboración.
+•	Disposición para aprender y aplicar nuevos conocimientos y sistemas de trabajo.
+Idiomas:
+•	No se mencionan requisitos específicos de idiomas en la oferta.
+
 https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante%2FAlacant&geoId=105235696&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3648531682&position=8&pageNum=0
 
 Senior Cloud Developer
@@ -66,6 +92,23 @@ https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante
                 Cualquier otro idioma supondra una ventaja
 
 AI & Security Data Scientist CaixaBank
+Requisitos:
+•	Ubicación: Posición en Barcelona o Madrid con un moldeo de trabajo híbrido que permite hasta un 60% de trabajo en remoto.
+•	Educación: No se mencionan requisitos educativos específicos en el anuncio, pero se espera experiencia o conocimientos en áreas relacionadas con inteligencia artificial y machine learning.
+•	Experiencia Profesional: No se especifica un rango de experiencia, pero se requiere experiencia o conocimientos en machine learning, modelos matemáticos y estadísticos, programación orientada a ciencia de datos y otros campos relacionados.
+•	Conocimientos Específicos: Se requiere experiencia en programación en Python, conocimientos de paquetes como TensorFlow, Pytorch, Sklearn, Scipy, Keras, y otros relacionados con machine learning.
+•	Otros Requisitos: Experiencia o conocimientos en seguridad, visualización y exploración de datos, metodologías de desarrollo de modelos (MLOps, DataOps, etc.), transformación y limpieza de datos (ETL, data wrangling), entorno Cloud (IaaS, PaaS, CaaS, SaaS), uso de técnicas para el control de versiones y A/B Testing, y experiencia en implementación de proyectos de machine learning en la industria con grandes volúmenes de datos.
+Apreciable:
+•	Se valora la pasión por el machine learning y modelos matemáticos y estadísticos.
+•	La programación orientada a ciencia de datos y el conocimiento de herramientas y paquetes específicos se consideran una ventaja.
+•	Experiencia o conocimientos en seguridad se aprecian.
+•	Experiencia en visualización de datos y herramientas relacionadas es un plus.
+•	Familiaridad con metodologías de desarrollo de modelos y transformación de datos se valora.
+•	Experiencia en entornos Cloud y control de versiones es apreciada.
+•	Se menciona que pertenecer a un grupo bancario tiene ventajas financieras, lo que indica que la oferta puede ser especialmente interesante para personas interesadas en la industria bancaria.
+Idiomas:
+•	No se mencionan requisitos específicos de idiomas en el anuncio.
+
 https://es.linkedin.com/jobs/view/ai-security-data-scientist-at-caixabank-tech-3693516154?refId=NMACHljnvrAw8oHZJ8hirg%3D%3D&trackingId=%2FcI5pVtjMTOn39TJm%2FEy4A%3D%3D&trk=public_jobs_topcard-title
 
 Investigador/a Inteligencia Artificial 
