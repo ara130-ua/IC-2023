@@ -11,27 +11,57 @@ https://es.linkedin.com/jobs/view/embedded-software-engineer-for-onboard-ai-ip-s
     Requisitos: Algún grado en ingeniería informática, multimedia, electronica...
                 Nivel de programacion excelente en c, c++ y python y saber utilizar plataformas como GIT
                 Conocimientos de tecnicas para procesamiento de imagenes o redes neuronales (Nvidia GPU, Myriad VPU, Xilinx FPGA/SoC/MPSoC)
-                Generacion de documentacion del proyecto incluyendo especificaciones, diseño sw y otros documentos 
+                Generacion de documentacion del proyecto incluyendo especificaciones, diseño sw y otros documentos
+
     Apreciado:  Experiencia practica en el desarollo de software en tiempo real en sistemas embebidos 
                 Experiencia o conocimientos de seguridad en sistemas criticos
                 Experiencia practica en buses de comunicacion, drivers y protocolos de comunicacion asociados (Serial line, Ethernet, Bus CAN, SPI, etc)
                 Experiencia o conocimientos de los estandares de programacion software (MISRA-C)
                 Experiencia en aplicaciones multihilo, sistemas de operaciones en tiempo real o computadores embebidos
                 Aplicaciones de diseño de software y sistemas (UML, SysML)
+
     Lenguajes:  Alto nivel de ingles 
                 Español opcional
                 
 Research Engineer - Diseño de un chip de procesos de un superordenador
 https://es.linkedin.com/jobs/view/research-engineer-researcher-design-of-a-supercomputing-processor-chip-at-barcelona-supercomputing-center-3627669163?refId=DomkcJb8s9H0WynTlYMPng%3D%3D&trackingId=zl7ghIQ%2FrKjnDsqACp%2FTQA%3D%3D&trk=public_jobs_topcard-title
+    
 
 Animation Tech Programmer
 https://es.linkedin.com/jobs/view/animation-tech-programmer-–-aaa-games-–-hybrid-onsite-barcelona-spain-at-one-player-mission-3613667669?refId=qLNvbW8oPB0XUysisMjPIQ%3D%3D&trackingId=v31Gcrve61X%2F9rsOxPOcHA%3D%3D&position=1&pageNum=0&trk=public_jobs_jserp-result_search-card
+
+    Requisitos: Experiencia en programacion animada de juegos AAA o juegos indie que usan tecnicas de novela animada
+                Nivel de programacion excelente en C++
+                Alto nivel de matematicas especialmente en algebra
+                Familliaridad con tecnicas modernas de animacion ( IK, parametric blending, time warping, events-based matching, time-based scaling, pivoting, motion matching)
+                Conocimientos en optimizacion de codigo, sistemas de datos, SIMD / colocacion de instrucciones en vector
+
+    Apreciado:  Conocimientos del estado actual del arte en animacion en la industria del cine 
+                Experiencia con redes neuronales y achine learning
+                Conocimientos generales sobre controladores para protagonistas y NPCs
+                Grado master en ciencias de la computacion o ingenieria software
+                Experiencia programando en terminal
+
+    Idioma: No hay
 
 Cloud Consultant
 https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante%2FAlacant&geoId=105235696&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3648531682&position=8&pageNum=0
 
 Senior Cloud Developer
 https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante%2FAlacant&geoId=105235696&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3705834174&position=20&pageNum=0
+    Requisitos: Mas de 5 años de experiencia en desarrollo en la nube
+                Fluidez en python y Javascript    
+                Conocimientos y experiencia usando Linux
+                Conocimientos de SQL y algun RDMS
+                Experiencia desarrollando servicios REST y RPC para arquitecturas microservicio
+                Experiencia desarrollando bancos de pruebas para servicios en la nube
+                Experiencia liderando equipos de desarrollo
+                Experiencia trabajando en flujos de trabajo agiles
+                Experiencia trabajando con Grafana   
+                Una mentalidad abierta y objetiva
+                Habilidades de comunicacion y nivel alto resolviendo problemas
+    Idiomas:    Nivel alto de ingles tanto escrito como hablado
+                Cualquier otro idioma supondra una ventaja
 
 AI & Security Data Scientist CaixaBank
 https://es.linkedin.com/jobs/view/ai-security-data-scientist-at-caixabank-tech-3693516154?refId=NMACHljnvrAw8oHZJ8hirg%3D%3D&trackingId=%2FcI5pVtjMTOn39TJm%2FEy4A%3D%3D&trk=public_jobs_topcard-title
