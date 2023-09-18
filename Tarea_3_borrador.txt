@@ -1,0 +1,40 @@
+Grupo 5 - 1
+Amazon con Bangalore
+Amazon en Robotica
+Python trabajar con IA
+Palabras Clave:
+CUDA, MPI, Computación Paralela
+
+Grupo 5 - 2
+Low level performance c++ 
+Senior Scientist
+deep learning software engineer
+Palabras clave:
+Optimización 26
+Python 13
+c++ 12
+Machine Learning 7
+Deep Learning 8
+
+Grupo 5 - 4
+Diseño de algoritmia y entorno gráfico
+Dev. Drivers gráficos
+Automatización con python
+Palabras clave:
+GPU 9, CUDA 8, c++ 7, DeepLearning 4, IA 6, Python 3, OpenCL 2:
+
+Grupo 5 - 5
+Desarrollador de procesos computacionales 3D
+Experto en seguridad y análisis de vulnerabilidades
+Navegación autónoma de drones
+MPI 33
+OpenCL 17
+OpenMP 16
+
+Tarea 3
+
+Muchos de los puestos de trabajo que se están ofertando tienen que ver con la inteligencia artificial,
+para estas ofertas, se suele pedir como requisito un amplio conocimiento en python y deep learning,
+también se están ofertando puestos de trabajo orientados a la ciberseguridad, al desarrollo de aplicaciones con c++
+y también orientados al entorno gráfico.
+En general, los puestos que más se ofertan tienen que ver con la optimización, con la inteligencia artificial, FPGA, Machine Learning, OpenCL y OpenMP.
