@@ -5,6 +5,8 @@ Supercomputación
 c++ developer
 computación en la nube
 
+El salario que puede esperar un ingeniero en un puesto asi oscila entre $60.000 - $150.000
+
 Embedded Software Engineer for Onboard AI-IP systems development
 Ingeniero de Software Empotrado para el Desarrollo de Sistemas de IA-IP a Bordo
 https://es.linkedin.com/jobs/view/embedded-software-engineer-for-onboard-ai-ip-systems-development-at-elecnor-deimos-3655620512?refId=ojpGpt7AEPt8JUo91n5AnQ%3D%3D&trackingId=oCAl5bYrr5QMg7uUw5olDw%3D%3D&position=4&pageNum=0&trk=public_jobs_jserp-result_search-card
