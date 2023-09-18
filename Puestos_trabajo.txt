@@ -5,11 +5,15 @@ Supercomputación
 c++ developer
 computación en la nube
 
-El salario que puede esperar un ingeniero en un puesto asi oscila entre $60.000 - $150.000
-
 Embedded Software Engineer for Onboard AI-IP systems development
 Ingeniero de Software Empotrado para el Desarrollo de Sistemas de IA-IP a Bordo
 https://es.linkedin.com/jobs/view/embedded-software-engineer-for-onboard-ai-ip-systems-development-at-elecnor-deimos-3655620512?refId=ojpGpt7AEPt8JUo91n5AnQ%3D%3D&trackingId=oCAl5bYrr5QMg7uUw5olDw%3D%3D&position=4&pageNum=0&trk=public_jobs_jserp-result_search-card
+
+Salario esperado:     
+•    0-2 años de experiencia    $70.000 - $120.000
+•    3-5 años de experiencia    $120.000 - $150.000
+•    +5 años de experiencia     +$150.000
+    
     Requisitos: Algún grado en ingeniería informática, multimedia, electronica...
                 Nivel de programacion excelente en c, c++ y python y saber utilizar plataformas como GIT
                 Conocimientos de tecnicas para procesamiento de imagenes o redes neuronales (Nvidia GPU, Myriad VPU, Xilinx FPGA/SoC/MPSoC)
@@ -26,6 +30,11 @@ https://es.linkedin.com/jobs/view/embedded-software-engineer-for-onboard-ai-ip-s
                 Español opcional
                 
 Research Engineer - Diseño de un chip de procesos de un superordenador
+
+Salario esperado 
+•    0-2 años de experiencia $70.000 - $120.000
+•    3-5 años de experiencia $120.000 - $180.000
+
 Perfiles Junior (0 a 2 años de experiencia):
 •	Educación: Se requiere una licenciatura (BS) o maestría (MS) en Ciencias de la Computación, Ingeniería Informática o Ingeniería Eléctrica. La experiencia industrial previa es un gran plus.
 •	Experiencia Profesional: Idealmente, experiencia en la industria.
@@ -45,6 +54,11 @@ https://es.linkedin.com/jobs/view/research-engineer-researcher-design-of-a-super
 Animation Tech Programmer
 https://es.linkedin.com/jobs/view/animation-tech-programmer-–-aaa-games-–-hybrid-onsite-barcelona-spain-at-one-player-mission-3613667669?refId=qLNvbW8oPB0XUysisMjPIQ%3D%3D&trackingId=v31Gcrve61X%2F9rsOxPOcHA%3D%3D&position=1&pageNum=0&trk=public_jobs_jserp-result_search-card
 
+Salario esperado 
+•    0-2 años de experiencia $60.000 - $100.000
+•    3-5 años de experiencia $100.000 - $130.000
+•    +5  años de experiencia +$130.000
+
     Requisitos: Experiencia en programacion animada de juegos AAA o juegos indie que usan tecnicas de novela animada
                 Nivel de programacion excelente en C++
                 Alto nivel de matematicas especialmente en algebra
@@ -60,6 +74,12 @@ https://es.linkedin.com/jobs/view/animation-tech-programmer-–-aaa-games-–-hy
     Idioma: No hay
 
 Cloud Consultant
+
+Salario esperado 
+•    0-2 años de experiencia $70.000 - $120.000
+•    3-5 años de experiencia $120.000 - $150.000
+•    +5  años de experiencia +$150.000
+
 Requisitos:
 •	Ubicación: Trabajo presencial en Salamanca.
 •	Duración del Contrato: Dos años.
@@ -77,6 +97,10 @@ https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante
 
 Senior Cloud Developer
 https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante%2FAlacant&geoId=105235696&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3705834174&position=20&pageNum=0
+
+Salario esperado
+•    entre $150.000 - $200.000
+
     Requisitos: Mas de 5 años de experiencia en desarrollo en la nube
                 Fluidez en python y Javascript    
                 Conocimientos y experiencia usando Linux
@@ -92,6 +116,11 @@ https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante
                 Cualquier otro idioma supondra una ventaja
 
 AI & Security Data Scientist CaixaBank
+
+Salario esperado 
+•   0-2 años de experiencia 35.000€ - 55.000€
+•   3-5 años de experiencia 55.000€ - 90.000€
+•   +5  años de experiencia +120.000€
 Requisitos:
 •	Ubicación: Posición en Barcelona o Madrid con un moldeo de trabajo híbrido que permite hasta un 60% de trabajo en remoto.
 •	Educación: No se mencionan requisitos educativos específicos en el anuncio, pero se espera experiencia o conocimientos en áreas relacionadas con inteligencia artificial y machine learning.
@@ -114,5 +143,16 @@ https://es.linkedin.com/jobs/view/ai-security-data-scientist-at-caixabank-tech-3
 Investigador/a Inteligencia Artificial 
 https://es.linkedin.com/jobs/search?keywords=Optimizacion%2Bsoftware&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3596692476&position=2&pageNum=0
 
+Salario esperado 
+•   0-2 años de experiencia $70.000 - $120.000
+•   3-5 años de experiencia $120.000 - $180.000
+•   +5  años de experiencia +$180.000
+
+
 Machine Learning Engineer
 https://es.linkedin.com/jobs/search?keywords=gpu&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3702456279&position=6&pageNum=0
+
+Salario esperado 
+•   0-2 años de experiencia $80.000 - $140.000
+•   3-5 años de experiencia $140.000 - $200.000
+•   +5  años de experiencia +$200.000
