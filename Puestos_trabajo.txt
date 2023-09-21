@@ -13,7 +13,9 @@ Salario esperado:
 •    0-2 años de experiencia    $70.000 - $120.000
 •    3-5 años de experiencia    $120.000 - $150.000
 •    +5 años de experiencia     +$150.000
-    
+
+    Ubicación: Madrid (Tres Cantos)
+
     Requisitos: Algún grado en ingeniería informática, multimedia, electronica...
                 Nivel de programacion excelente en c, c++ y python y saber utilizar plataformas como GIT
                 Conocimientos de tecnicas para procesamiento de imagenes o redes neuronales (Nvidia GPU, Myriad VPU, Xilinx FPGA/SoC/MPSoC)
@@ -59,6 +61,8 @@ Salario esperado
 •    3-5 años de experiencia $100.000 - $130.000
 •    +5  años de experiencia +$130.000
 
+    Ubicación: Barcelona
+
     Requisitos: Experiencia en programacion animada de juegos AAA o juegos indie que usan tecnicas de novela animada
                 Nivel de programacion excelente en C++
                 Alto nivel de matematicas especialmente en algebra
@@ -101,6 +105,7 @@ https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante
 Salario esperado
 •    entre $150.000 - $200.000
 
+    Ubicacion: Alicante
     Requisitos: Mas de 5 años de experiencia en desarrollo en la nube
                 Fluidez en python y Javascript    
                 Conocimientos y experiencia usando Linux
@@ -112,6 +117,9 @@ Salario esperado
                 Experiencia trabajando con Grafana   
                 Una mentalidad abierta y objetiva
                 Habilidades de comunicacion y nivel alto resolviendo problemas
+
+    Conocimientos Apreciados: Experiencia con Golang y C++ moderno
+
     Idiomas:    Nivel alto de ingles tanto escrito como hablado
                 Cualquier otro idioma supondra una ventaja
 
@@ -142,12 +150,31 @@ https://es.linkedin.com/jobs/view/ai-security-data-scientist-at-caixabank-tech-3
 
 Investigador/a Inteligencia Artificial 
 https://es.linkedin.com/jobs/search?keywords=Optimizacion%2Bsoftware&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3596692476&position=2&pageNum=0
-
+    
 Salario esperado 
 •   0-2 años de experiencia $70.000 - $120.000
 •   3-5 años de experiencia $120.000 - $180.000
 •   +5  años de experiencia +$180.000
 
+    Ubicación: Barcelona 
+
+    Requisitos: Titulo en matematicas, fisica, estdistica, multimedia, ingenieria informatica y similares
+                Estudios o especialización (máster, postgrado, PhD) en IA, Optimización o Estadística.
+                Experiencia en el desarrollo de algoritmos de optimización, y en concreto optimización combinatoria, para la gestión de recursos, planificaciones, rutas, diseño, operaciones, procesos, …
+                Experiencia en formalización de problemas de optimización: definición de la función a optimizar y el espacio de búsqueda con restricciones
+                Experiencia en alguna de las siguientes herramientas: Java (librerías como OptaPlanner), Python (librerías como Hyperopt)
+                Capacidad analítica y critica para evaluar resultados
+                Autonomía para afrontar nuevos retos y problemas, búsqueda de soluciones, diseño de pipelines de análisis de forma
+
+    Conocimientos Apreciados: Experiencia académica o profesional en proyectos de I+D, en el ámbito industrial, gestión de recursos (energía/agua), medioambiental y cambio climático, agroalimentario,                                       aeroespacial y/o construcción
+                              Conocimiento en optimización bayesiana, procesos estocásticos y en modelos de grafos probabilísticos
+                              Experiencia en gestión y / o participación en proyectos con consorcios transnacionales
+                              Experiencia en ámbitos de I + D + i colaborativos y documentación de proyectos europeos.
+                              Capacidad de desarrollar y desplegar de forma independiente prototipos de soluciones de analítica y gestión de datos para los problemas identificados
+                              Experiencia en metodologías y estrategias para DoE
+                              Formación o experiencia en plataformas de servicios software, arquitecturas de datos, Data Science y / o tecnologías semánticas.
+
+    Idiomas: No hay nada
 
 Machine Learning Engineer
 https://es.linkedin.com/jobs/search?keywords=gpu&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3702456279&position=6&pageNum=0
@@ -156,3 +183,24 @@ Salario esperado
 •   0-2 años de experiencia $80.000 - $140.000
 •   3-5 años de experiencia $140.000 - $200.000
 •   +5  años de experiencia +$200.000
+
+Ubicación
+    España en remoto
+
+Requisitos
+    Grado master en ciencia de los computadores 
+    Mas de 3 años de experiencia
+    Conocimiento experto de Python y PyTorch
+    Experiencia entrenando redes neuronales grandes con milliones de datos con multiples GPUs
+    Experiencia usando redes neuronales en produccion
+    Experiencia con Kubernetes
+
+Conocimientos Apreciados   
+    Experiencia optimizando entrenamiento multi-GPU
+    Experiencia entrenando con grandes datasets NLP
+    Experiencia construyendo training pipelines E2E eficientes
+    Experiencia optimizando inferencias (Torchscript/TensorRT/Quantization)
+    experiencia con pipelines CI/CD
+
+Idioma
+    No hay nada
