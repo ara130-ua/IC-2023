@@ -103,7 +103,7 @@ Senior Cloud Developer en The TMRW Foundation
 https://es.linkedin.com/jobs/search?keywords=cloud%2Bcomputing&location=Alicante%2FAlacant&geoId=105235696&trk=public_jobs_jobs-search-bar_search-submit&currentJobId=3705834174&position=20&pageNum=0
 
 Salario esperado
-•    entre $150.000 - $200.000
+•    entre 45.000€ - 80.000€
 
     Ubicacion: Alicante
     Requisitos: Mas de 5 años de experiencia en desarrollo en la nube
@@ -159,7 +159,7 @@ Salario esperado
     Ubicación: Barcelona 
 
     Requisitos: Titulo en matematicas, fisica, estdistica, multimedia, ingenieria informatica y similares
-                Estudios o especialización (máster, postgrado, PhD) en IA, Optimización o Estadística.
+                Estudios o especialización (máster, postgrado, PhD) en IA, Optimización y Estadística.
                 Experiencia en el desarrollo de algoritmos de optimización, y en concreto optimización combinatoria, para la gestión de recursos, planificaciones, rutas, diseño, operaciones, procesos, …
                 Experiencia en formalización de problemas de optimización: definición de la función a optimizar y el espacio de búsqueda con restricciones
                 Experiencia en alguna de las siguientes herramientas: Java (librerías como OptaPlanner), Python (librerías como Hyperopt)
@@ -168,8 +168,8 @@ Salario esperado
 
     Conocimientos Apreciados: Experiencia académica o profesional en proyectos de I+D, en el ámbito industrial, gestión de recursos (energía/agua), medioambiental y cambio climático, agroalimentario,                                       aeroespacial y/o construcción
                               Conocimiento en optimización bayesiana, procesos estocásticos y en modelos de grafos probabilísticos
-                              Experiencia en gestión y / o participación en proyectos con consorcios transnacionales
-                              Experiencia en ámbitos de I + D + i colaborativos y documentación de proyectos europeos.
+                              Experiencia en gestión y/o participación en proyectos con consorcios transnacionales
+                              Experiencia en ámbitos de I+D + y colaborativos y documentación de proyectos europeos.
                               Capacidad de desarrollar y desplegar de forma independiente prototipos de soluciones de analítica y gestión de datos para los problemas identificados
                               Experiencia en metodologías y estrategias para DoE
                               Formación o experiencia en plataformas de servicios software, arquitecturas de datos, Data Science y / o tecnologías semánticas.
