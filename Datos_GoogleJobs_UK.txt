@@ -1,0 +1,24 @@
+Aceleración de Hardware: 70
+GPU: 200
+FPGA: 310
+Procesamiento Paralelo: 45
+Optimización de código: 100
+Algoritmo de aceleración: 75
+SIMD: 80
+CUDA: 130
+OpenCL: 50
+Rendering: 570
+Computación en la nube: 720
+Virtualización: 630
+CDN: 55
+JIT: 220
+Cache de datos: 160
+Aceleración de base de datos: 85
+RAM: 35
+DSP: 110
+SSD: 370
+Arquitectura cache: 30
+Almacenamiento cache: 40
+Procesamiento gráfico 3D: 420
+Redes Neuronales: 65
+Inteligencia Artificial: 830

@@ -1,0 +1,27 @@
+Amazon Jobs
+
+EEUU		Palabras Clave			Resultados
+		Aceleración de Hardware		66
+		GPU				31
+		FPGA				30
+		Procesamiento Paralelo		0
+		Optimizacion de codigo		100
+		Algoritmo de aceleracion	29
+		SIMD				0
+		CUDA				2
+		OpenCL				3
+		Rendering			16
+		Computacion en la nube		553
+		Virtualizacion 			323
+		CDN				11
+		JIT				173
+		Cache de datos			3
+		Aceleración de base de datos	17
+		RAM				5
+		DSP				108
+		SSD				22
+		Arquitectura cache		3
+		Almacenamiento cache		3
+		Procesamiento graficos 3D	52
+		Redes Neuronales		3
+		Inteligencia Artificial		189
