@@ -1,0 +1,28 @@
+
+InfoJobs
+
+UK		Palabras Clave			Resultados
+	Aceleración de Hardware: 43
+	GPU: 185
+	FPGA: 292
+	Procesamiento Paralelo: 9
+	Optimización de código: 27
+	Algoritmo de aceleración: 36
+	SIMD: 65
+	CUDA: 123
+	OpenCL: 18
+	Rendering: 900
+	Computación en la nube: 900
+	Virtualización: 900
+	CDN: 123
+	JIT: 318
+	Cache de datos: 238
+	Aceleración de base de datos: 59
+	RAM: 18
+	DSP: 146
+	SSD: 685
+	Arquitectura cache: 13
+	Almacenamiento cache: 27
+	Procesamiento gráficos 3D: 344
+	Redes Neuronales: 18
+	Inteligencia Artificial: 900
