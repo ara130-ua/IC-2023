@@ -29,6 +29,8 @@ void equalization(cv::Mat &in, cv::Mat &out, float black, float white, float sat
 void debayer(LibRaw* processor, cv::Mat &out);
 void screenMerge(cv::Mat &in1, cv::Mat &in2, cv::Mat &out);
 
+
+
 void gammaCurve(unsigned short *curve, double power)
 {
     auto start = high_resolution_clock::now();
@@ -45,6 +47,7 @@ void gammaCurve(unsigned short *curve, double power)
     bnd[g[1] >= 1] = 1;
     if (g[1] && (g[1] - 1) * (g[0] - 1) <= 0)
     {
+        
         for (i = 0; i < 48; i++)
         {
             g[2] = (bnd[0] + bnd[1]) / 2;
@@ -56,6 +59,8 @@ void gammaCurve(unsigned short *curve, double power)
         g[3] = g[2] / g[1];
         if (g[0])
             g[4] = g[2] * (1 / g[0] - 1);
+            
+        
     }
     if (g[0])
         g[5] = 1 / (g[1] * SQR(g[3]) / 2 - g[4] * (1 - g[3]) +
@@ -128,8 +133,20 @@ void denoise(cv::Mat &in, cv::Mat &out, int windowSize)
 	cv::split(ycrcb, channels);
 
     // remove noise from chrominance channels
-	cv::medianBlur(channels[1], channels[1], windowSize);
-	cv::medianBlur(channels[2], channels[2], windowSize);
+    #pragma omp parallel
+    {
+        #pragma omp sections
+        {
+            #pragma omp section
+            {
+                cv::medianBlur(channels[1], channels[1], windowSize);
+            }
+            #pragma omp section
+            {
+                cv::medianBlur(channels[2], channels[2], windowSize);
+            }
+        }
+    }
 
     // convert back to RGB and 16 bits
 	cv::merge(channels, out);
@@ -341,6 +358,8 @@ void colorBalance(cv::Mat& in, cv::Mat& out, float percent) {
     std::vector<cv::Mat> tmpsplit; 
     cv::split(in,tmpsplit);
     int max = (in.depth() == CV_8U ? 1<<8 : 1<<16) - 1;
+
+    #pragma omp parallel for 
     for(int i=0;i<3;i++) 
     {
         // find the low and high precentile values (based on the input percentile)
