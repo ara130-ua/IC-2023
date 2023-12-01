@@ -1,0 +1,21 @@
+Esta es la bitácora de la práctica 3 de IC, en la cual se trabajó con un programa para el procesamiento de imágenes.
+
+Integrantes del equipo:
+Iván López Sanchís
+Jaime Morales Vaello
+Adrián Ríos Armero
+Joan Climent Quiñones
+
+Dia 1 (30/10/2023): Explicación de las distintas tareas de la práctica por parte del profesor, y realizamos la instalación de OpenCV en los ordenadores personales
+
+Dia 2 (6/11/2023): Realizamos la tarea 0, e intentamos compilar el programa que se nos proporcionó en la asignatura en nuestros ordenadores personales, pero no tuvimos éxito.
+Supusimos que el problema estaba o en la instalación de OpenCV o que no configurasemos de la manera correcta las variables de entorno del so.
+
+Dia 3 (13/11/2023): En este día Joan Climent e Iván López se encargaron de compilar el programa en los ordenadores del aula de IC, mientras tanto, Jaime Morales y Adrián Ríos empezaron con la tarea 2.1
+
+Dia 4 (): Antes de empezar con la paralelización del problema todos los miembros del equipo hicieron los recetarios con algunas de las directivas de OpenMP
+y empezamos a implementar la paralelización del problema.
+
+Dia 5 (): Seguimos con la paralelización del problema, y añadimos en la memoria la parte de la paralelización que ya teníamos acabada.
+
+Día 6 (): Acabamos de paralelizar el problema y lo añadimos a la memoria, por último acabamos las diapositivas y la bitácora.
