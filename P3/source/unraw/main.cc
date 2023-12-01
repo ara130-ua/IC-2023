@@ -29,8 +29,6 @@ void equalization(cv::Mat &in, cv::Mat &out, float black, float white, float sat
 void debayer(LibRaw* processor, cv::Mat &out);
 void screenMerge(cv::Mat &in1, cv::Mat &in2, cv::Mat &out);
 
-
-//////////////////////////////7
 void gammaCurve(unsigned short *curve, double power)
 {
     auto start = high_resolution_clock::now();
@@ -119,7 +117,7 @@ void equalization(cv::Mat &in, cv::Mat &out, float black, float white, float sat
 
 	cout<<"Equalization: "<<elapsed_ms.count()<<"ms"<<endl;
 }
-///////////////////////////
+
 void denoise(cv::Mat &in, cv::Mat &out, int windowSize)
 {
 	auto start = high_resolution_clock::now();
@@ -250,7 +248,7 @@ void sharpening(cv::Mat& in, cv::Mat& out, float sigma, float amount)
 
 	cout << "Sharpening: " << elapsed_ms.count()<<"ms"<<endl;
 }
-//////////////////////////////////
+
 void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
 {
 	auto start = high_resolution_clock::now();
@@ -271,7 +269,6 @@ void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
     // the blurred image again to reconstruct the image
     float* pIn, *pBlur;
 
-    #pragma omp parallel for private(pIn,pBlur)
     for(int i = 0; i < in.rows; ++i)
     {
         pIn = inFloat.ptr<float>(i);
@@ -315,18 +312,18 @@ void bloom(cv::Mat &in, cv::Mat &out, float sigma, float threshold)
     // set to 1.0 only pixels above the threshold
     cv::threshold(mask, mask, threshold, 1.0, cv::THRESH_BINARY);
     // apply gaussian blur to thresholded pixels
-
-    cv::GaussianBlur(mask, mask, cv::Size(), sigma);   
+    cv::GaussianBlur(mask, mask, cv::Size(), sigma);
     // convert the computed mask to 3 channel image and 16 bit
     cv::cvtColor(mask, mask, cv::COLOR_GRAY2BGR);
-    mask.convertTo(out, CV_16U, 65535);
+    mask.convertTo(mask, CV_16U, 65535);
+    out = mask.clone();
     
     auto end = high_resolution_clock::now();
 	auto elapsed_ms = duration_cast<milliseconds>(end - start);
 
 	cout << "Bloom: " << elapsed_ms.count()<<"ms"<<endl;
 }
-////////////////////////////
+
 void gammaCorrection(cv::Mat& in, cv::Mat& out, float a, float b, float gamma)
 {
 	auto start = high_resolution_clock::now();
@@ -357,7 +354,7 @@ void gammaCorrection(cv::Mat& in, cv::Mat& out, float a, float b, float gamma)
 
 	cout<<"Gamma correction: "<<elapsed_ms.count()<<"ms"<<endl;
 }
-/////////////////////////////////
+
 void colorBalance(cv::Mat& in, cv::Mat& out, float percent) {
 
 	auto start = high_resolution_clock::now();
@@ -403,11 +400,13 @@ void screenMerge(cv::Mat &in1, cv::Mat &in2, cv::Mat &out)
     cv::Mat tmp = cv::Mat::zeros(inFloat1.size(), inFloat1.type());
     float* pIn1, *pIn2, *pTmp;
     // apply the screen mode merge
+    
     for(int i = 0; i < in1.rows; ++i)
     {
         pIn1 = inFloat1.ptr<float>(i);
         pIn2 = inFloat2.ptr<float>(i);
         pTmp = tmp.ptr<float>(i);
+        #pragma omp parallel for schedule(static)
         for (int j = 0; j < in1.cols; ++j)
         {
             for(int c = 0; c < 3; c++)
@@ -455,7 +454,8 @@ int main(int argc, char *argv[])
         
         return 0;
     }
-    
+    auto start = high_resolution_clock::now();
+
     cv::Mat image;
     // debayer the raw image
     debayer(processor, image);
@@ -470,10 +470,23 @@ int main(int argc, char *argv[])
     // equalize luminance values and increase saturation
     equalization(image, image, 0.0, 1.0, 0.5);
     cv::Mat enhanced, bloomed;
-    // enhance high frequency details
-    enhanceDetails(image, enhanced, 20, 1.25);
-    // compute bloom mask
-    bloom(image, bloomed, 70, 0.9);
+     #pragma omp parallel
+    {
+        #pragma omp sections
+        {
+            #pragma omp section
+            {
+                // enhance high frequency details
+                enhanceDetails(image, enhanced, 20, 1.25);
+            }
+            #pragma omp section
+            {
+                // compute bloom mask
+                bloom(image, bloomed, 70, 0.9);
+            }
+        }
+    }
+    #pragma omp critical
     // combine enhanced details with bloom mask
     screenMerge(enhanced, bloomed, image);
     // convert to 8 bit image
@@ -481,5 +494,10 @@ int main(int argc, char *argv[])
     // save final image
     cv::imwrite(outputFile, image);
     
+    auto end = high_resolution_clock::now();
+	auto elapsed_ms = duration_cast<milliseconds>(end - start);
+
+	cout<<"Total: "<< elapsed_ms.count()<<"ms"<<endl;
+
     return 0;
 }
