@@ -3,6 +3,7 @@
 #include <math.h>
 #include <iostream>
 #include <chrono>
+#include <mpi.h>
 
 #include "libraw/libraw.h"
 
@@ -65,7 +66,20 @@ void gammaCurve(unsigned short *curve, double power)
         g[5] = 1 / (g[1] * SQR(g[3]) / 2 + 1 - g[2] - g[3] -
             g[2] * g[3] * (log(g[3]) - 1)) -
            1;
-    for (i = 0; i < 0x10000; i++)
+
+    int rank, size;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    int chunkSize = imax / size;
+    int remainder = imax % size;
+    int startIdx = rank * chunkSize;
+    int endIdx = startIdx + chunkSize;
+    if (rank == size - 1) {
+        endIdx += remainder;
+    }
+
+    for (i = startIdx; i < endIdx; i++)
     {
         curve[i] = 0xffff;
         if ((r = (double)i / imax) < 1)
@@ -80,6 +94,9 @@ void gammaCurve(unsigned short *curve, double power)
                                         : exp((r - 1) / g[2]))));
         }
     }
+
+    MPI_Allgather(MPI_IN_PLACE, 0, MPI_DATATYPE_NULL, curve, chunkSize, MPI_UNSIGNED_SHORT, MPI_COMM_WORLD);
+
     auto end = high_resolution_clock::now();
     auto elapsed_ms = duration_cast<milliseconds>(end - start);
 
