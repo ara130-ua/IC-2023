@@ -429,46 +429,55 @@ int main(int argc, char *argv[])
     string outputFile = argv[2];
     LibRaw* processor = new LibRaw;
     
-    // load the raw image
+    // Initialize MPI
+    MPI_Init(&argc, &argv);
+    int rank, size;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    
+    // Load the raw image
     if ((ret = processor->open_file(inputFile.c_str())) != LIBRAW_SUCCESS)
     {
         cerr<<"Cannot open file "<<inputFile<<": "<<libraw_strerror(ret)<<endl;
         
-        return 0;
+        MPI_Finalize();
     }
     
-    // unpack the values
+    // Unpack the values
     if (ret = processor->unpack() != LIBRAW_SUCCESS)
     {
         cerr<<"Cannot do postprocessing on "<<inputFile<<": "<<libraw_strerror(ret)<<endl;
         
-        return 0;
+        MPI_Finalize();
     }
     
     cv::Mat image;
-    // debayer the raw image
+    // Debayer the raw image
     debayer(processor, image);
     delete processor;
     
-    // remove chrominance noise
+    // Remove chrominance noise
     denoise(image, image, 5);
-    // apply gamma correction (move from linear output to non linear)
+    // Apply gamma correction (move from linear output to non linear)
     gammaCorrection(image, image, 1.0, 0.0, 2.2);
-    // apply color balance correction
+    // Apply color balance correction
     colorBalance(image, image, 2);
-    // equalize luminance values and increase saturation
+    // Equalize luminance values and increase saturation
     equalization(image, image, 0.0, 1.0, 0.5);
     cv::Mat enhanced, bloomed;
-    // enhance high frequency details
+    // Enhance high frequency details
     enhanceDetails(image, enhanced, 20, 1.25);
-    // compute bloom mask
+    // Compute bloom mask
     bloom(image, bloomed, 70, 0.9);
-    // combine enhanced details with bloom mask
+    // Combine enhanced details with bloom mask
     screenMerge(enhanced, bloomed, image);
-    // convert to 8 bit image
+    // Convert to 8 bit image
     image.convertTo(image, CV_8U, 1.0/255.0);
-    // save final image
+    // Save final image
     cv::imwrite(outputFile, image);
+    
+    // Finalize MPI
+    MPI_Finalize();
     
     return 0;
 }
