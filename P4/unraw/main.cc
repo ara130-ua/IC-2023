@@ -473,8 +473,21 @@ int main(int argc, char *argv[])
     screenMerge(enhanced, bloomed, image);
     // Convert to 8 bit image
     image.convertTo(image, CV_8U, 1.0/255.0);
-    // Save final image
-    cv::imwrite(outputFile, image);
+    // Gather the processed images from all processes
+    cv::Mat finalImage;
+    if (rank == 0) {
+        finalImage = cv::Mat::zeros(image.size(), image.type());
+    }
+    MPI_Gather(image.data, image.total() * image.elemSize(), MPI_BYTE,
+               finalImage.data, image.total() * image.elemSize(), MPI_BYTE,
+               0, MPI_COMM_WORLD);
+
+    // Convert to 8 bit image on the root process
+    if (rank == 0) {
+        finalImage.convertTo(finalImage, CV_8U, 1.0/255.0);
+        // Save final image
+        cv::imwrite(outputFile, finalImage);
+    }
     
     // Finalize MPI
     MPI_Finalize();
